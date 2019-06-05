@@ -1,0 +1,22 @@
+{
+  "name": "newt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.0",
+    "webpack": "^4.32.2"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "webpack-cli": "^3.3.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build:css": "node-sass src/sass/main.scss dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
