@@ -7,16 +7,18 @@
 label {
     display: inline-block;
     background-color: #fff;
-    height: 25px;
+    height: 20px;
     border-radius: 1px;
 }
 
 .upload__container {
+    width: 35vw;
+    margin: 0 auto;
 }
 
 .upload {
     position: relative;
-    width: 200px
+    width: 30vw;
 }
 
 .upload__name {
@@ -35,13 +37,21 @@ label {
     position: absolute;
     background-color: gainsboro;
     border: none;
-    height: 25px;
+    height: 20px;
     border-top-right-radius: 1px;
     border-bottom-right-radius: 1px;
     margin-left: -5px;
+    width: 5vw;
 }
 
 body {
     height: 100vh;
     width: 100vw;
+}
+
+form {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-30%);
 }
