@@ -1,9 +1,15 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+    play: './src/scripts/index.js',
+    home: './src/scripts/collection.js'
+  },
   output: {
-    filename: 'main.js',
+    filename: '[name]-main.js',
     path: path.resolve(__dirname, 'dist')
+  },
+  node: {
+    fs: 'empty'
   }
 };

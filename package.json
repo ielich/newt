@@ -13,7 +13,7 @@
     "webpack-cli": "^3.3.2"
   },
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode production",
     "build:css": "node-sass src/sass/main.scss dist/style.css"
   },
   "keywords": [],
